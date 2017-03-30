@@ -1,0 +1,33 @@
+Windows PowerShell
+Copyright (C) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\katya\Documents\GitHub> ssh
+usage: ssh [-1246AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-E log_file] [-e escape_char]
+           [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J [user@]host[:port]] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-p port] [-Q query_option] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           [user@]hostname [command]
+C:\Users\katya\Documents\GitHub> ssh-keygen -t rsa -C "kachinna@ucsc.edu"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/katya/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/katya/.ssh/id_rsa.
+Your public key has been saved in /c/Users/katya/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:DCTlDcTY2PiHTzIX5TFGht7PPw/nAPLXm9YdAO+axzw kachinna@ucsc.edu
+The key's randomart image is:
++---[RSA 2048]----+
+|    .X=  +B      |
+|    +++oo+ +     |
+|     .oo.o. o    |
+|      =o= .  o   |
+|       BS .oo .  |
+|        .  ooo o |
+|            *.+ *|
+|           o Eo*=|
+|            . o=o|
++----[SHA256]-----+
+C:\Users\katya\Documents\GitHub>

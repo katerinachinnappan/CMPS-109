@@ -1,0 +1,6 @@
+Father(Allen,Margret)
+Father(Allen,Lisa)
+Mother(Margret,Rob)
+Mother(Lisa,Romeo)
+Parent($X,$Y):- OR Father($X,$Y) Mother($X,$Y)
+GrandFather($X,$Y):- AND Father($X,$Z) Parent($Z,$Y)

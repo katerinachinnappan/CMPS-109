@@ -1,0 +1,5 @@
+Parent($X,$Y):- OR Father($X,$Y) Mother($X,$Y)
+
+
+
+

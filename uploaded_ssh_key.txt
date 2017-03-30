@@ -1,0 +1,9 @@
+Current branch master is up to date.
+Pulled repo
+Got key with sig ce:95:85:4a:68:ce:2c:e2:cf:77:93:e9:4d:be:38:15 
+Added /home/git/admin/key-repo/keydir/kachinna.pub
+[master 07e1a52] Updated key file for kachinna to ce:95:85:4a:68:ce:2c:e2:cf:77:93:e9:4d:be:38:15
+ 1 file changed, 1 insertion(+)
+ create mode 100644 keydir/kachinna.pub
+Committed /home/git/admin/key-repo/keydir/kachinna.pub
+Pushed /home/git/admin/key-repo/keydir/kachinna.pub

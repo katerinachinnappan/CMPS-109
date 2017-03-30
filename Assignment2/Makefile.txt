@@ -1,0 +1,16 @@
+#------------------------------------------------------------------------------
+# Makefile for CMPS 101 Programming Assignment 2
+#
+#       make                   makes HeapClient
+#       make ListClient        makes ListClient
+#------------------------------------------------------------------------------
+
+HeapClient : HeapClient.o HeapClient.o
+	gcc -o HeapClient HeapClient.o Heap.o
+
+
+HeapClient.o : HeapClient.c Heap.h
+	g++ -std=c++11 -Wall HeapClient.c
+
+clean :
+	rm -f Lex HeapClient HeapClient.o Heap.o
